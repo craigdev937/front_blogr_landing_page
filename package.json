@@ -1,9 +1,12 @@
 {
+  "homepage": "https://craigdev937.github.io/front_blogr_landing_page",
   "name": "front_blogr_landing_page",
   "version": "1.0.0",
   "main": "index.tsx",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -25,3 +28,5 @@
     "vite": "^5.4.11"
   }
 }
+
+
