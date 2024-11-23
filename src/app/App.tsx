@@ -1,14 +1,11 @@
 import React from "react";
 import "./App.css";
-import Rick from "/Rick.webp";
+import { Main } from "../containers/Main";
 
 export const App = () => {
     return (
         <React.Fragment>
-            <img 
-                src={Rick} alt="Rick and Andre" 
-                height={"600px"} width={"auto"}
-            />
+            <Main />
         </React.Fragment>
     );
 };
